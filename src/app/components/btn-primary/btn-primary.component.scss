@@ -19,24 +19,24 @@
   font-weight: bold;
 }
 
-&.secondary {
-  background: white;
-  color: $primary-text;
+  &.secondary {
+    background: white;
+    color: $primary-text;
 
-  font-size: 12px;
-  font-weight: bold;
+    font-size: 12px;
+    font-weight: bold;
  }
 }
-
 @media (min-width: 768px) {
   .btn {
-      padding: 20px 40px;
+    padding: 20px 40px;
 
-      .primary {
-          font-size: 24px;
-      } 
-      .secondary {
-          font-size: 16px;
-      }
+    .primary {
+      font-size: 24px;
+    }
+
+    .secondary {
+      font-size: 16px;
+    }
   }
 }
