@@ -3,6 +3,7 @@ import { HeaderComponent } from '../header/header.component';
 import { NgOptimizedImage } from '@angular/common';
 import { BtnPrimaryComponent } from '../btn-primary/btn-primary.component';
 import { NewsFormComponent } from '../news-form/news-form.component';
+import { BenefitComponent } from '../benefit/benefit.component';
 
 @Component({
   selector: 'app-home',
@@ -11,7 +12,8 @@ import { NewsFormComponent } from '../news-form/news-form.component';
     HeaderComponent,
     NgOptimizedImage,
     BtnPrimaryComponent,
-    NewsFormComponent
+    NewsFormComponent,
+    BenefitComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
