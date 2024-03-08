@@ -8,7 +8,7 @@
 
  padding: 40px 70px;
 
- background: $secondary-color;
+ background: $bg-secondary;
  color: white;
 
  text-align: justify;
@@ -43,6 +43,8 @@
    border: none;
    border-bottom: 1px solid white;
    width: 100%;
+
+   color: white;
 
    height: 60px;
    margin-bottom: 40px;
