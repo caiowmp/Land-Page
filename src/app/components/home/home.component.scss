@@ -83,9 +83,14 @@ main {
  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1150px) {
  .main-section {
   flex-direction: row;
+ }
+}
+
+@media (min-width: 1080px) {
+ .main-section {
 
   span {
    font-size: 20px;
@@ -110,5 +115,24 @@ main {
 
  .cta-section h2 {
   font-size: 60px;
+ }
+}
+
+@media (max-width: 500px) {
+ .main-section{
+  padding:0;
+  .head-line{
+   max-width: 320px;
+  }
+  h1 {
+   font-size: 32px;
+  }
+ }
+
+ .benefit-section{
+  padding:0;
+ }
+ .cta-section pad-70{
+  padding: 0;
  }
 }
